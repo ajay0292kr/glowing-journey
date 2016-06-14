@@ -8,7 +8,7 @@ int main()
  
    printf("Enter a string\n");
    gets(string);
- 
+   /* unless string char is NULL, iterate over each chars */ 
    while (string[c] != '\0')
    {
       /** Considering characters from 'a' to 'z' only
