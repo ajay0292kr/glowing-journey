@@ -6,12 +6,11 @@ import java.util.*;
   /*this is default class*/ 
   abstract class C2 extends C1 {
           
-          void f1()
-		{
+          void f1() {
                      System.out.println("f1-C2-orignal");
 		}
   };
- class C3 extends C2 {
+ class C3 extends C2  {
             
           void f1 ()  {
               		super.f1 ();
@@ -20,8 +19,7 @@ import java.util.*;
            void f2 () {
                        System.out.println("c2-c3");
              }
-           void f3 ()
-		{
+           void f3 () {
 			System.out.println ("f3-C3-SPECIALLY DEFINED");
 		} 
  };
