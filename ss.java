@@ -3,7 +3,7 @@ import java.util.*;
              abstract void f1();
 	     abstract void f2();
   };
-   
+  /*this is default class*/ 
   abstract class C2 extends C1 {
           
           void f1()
