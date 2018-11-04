@@ -3,10 +3,10 @@ public class Array {
 	public static void main(String[] args) {
         int i,n;
         Scanner in =new Scanner(System.in);
-        System.out.println("enter the value of n:");
+        System.out.println("Enter the value of n:");
         n=in.nextInt();
         int [] a = new int[n];
-        System.out.println("please enter number:");
+        System.out.println("Please enter number:");
         for( i=0;i<n;i++)
          {
     	  
